@@ -115,7 +115,7 @@ export class NgxMatTimepickerDirective implements ControlValueAccessor, OnDestro
             this._min as DateTime,
             this._max as DateTime,
             "minutes",
-            this._timepicker.minutesGap,
+            this._timepicker?.minutesGap ?? 1,
             this._format
         );
 
