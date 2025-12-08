@@ -56,7 +56,7 @@ const pkgName = "ngx-mat-timepicker";
 export class NgxMatTimepickerDemoComponent implements OnInit {
 
     get buildRef(): string {
-        return `${pkg.version}-build-${pkg.build}`;
+        return `${pkg.version}`;
     }
 
     get currentLocale(): NgxMatTimepickerLocaleKey {
