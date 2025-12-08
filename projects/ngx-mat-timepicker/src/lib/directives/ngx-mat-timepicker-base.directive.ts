@@ -16,8 +16,7 @@ import {Observable, Subject} from "rxjs";
 import {shareReplay, takeUntil} from "rxjs/operators";
 
 @Directive({
-    selector: "[ngxMatTimepickerBase]",
-    standalone: true
+    selector: "[ngxMatTimepickerBase]"
 })
 export class NgxMatTimepickerBaseDirective implements OnInit, OnDestroy {
 

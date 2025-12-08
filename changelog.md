@@ -1,3 +1,6 @@
+#21.0.0
+* Update for Angular 21! 🎉
+
 #20.0.1
 * Fix peer deps
 
